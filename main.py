@@ -19,7 +19,7 @@ known_face_encodings.append(known_person3_encoding)
 
 known_face_names.append("kuljeet")
 known_face_names.append("ayush")
-known_face_names.append("bhavu my love")
+known_face_names.append("bhavika")
 
 video_capture = cv2.VideoCapture(0)
 
@@ -51,7 +51,7 @@ while True:
                 color = (0, 255, 0)  # Green color for kuljeet
             elif name == "ayush":
                 color = (0, 0, 0)  # Black color for ayush
-            elif name == "bhavu my love":
+            elif name == "bhavika":
                 color = (255, 153, 255)  # Pink color for bhavu baby
 
 
